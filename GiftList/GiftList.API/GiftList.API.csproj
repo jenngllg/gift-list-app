@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
     <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
@@ -19,10 +20,6 @@
   <ItemGroup>
     <ProjectReference Include="..\GiftList.Application\GiftList.Application.csproj" />
     <ProjectReference Include="..\GiftList.Models\GiftList.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Behaviors\" />
   </ItemGroup>
 
 </Project>
