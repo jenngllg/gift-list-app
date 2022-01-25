@@ -11,4 +11,9 @@
     <ProjectReference Include="..\GiftList.Models\GiftList.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Handlers\" />
+  </ItemGroup>
+
 </Project>
